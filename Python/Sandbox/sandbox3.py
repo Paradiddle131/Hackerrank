@@ -25,7 +25,7 @@
 # print("a" < "ba")
 # print(ord("a"))
 
-
+"""
 numbers = [100, 107, 104, 99]
 numbers2 = numbers
 numbers2[0] = max(numbers)
@@ -62,3 +62,41 @@ print(biggerIsGreater("hefg"))  # hegf [104,101,102,103] - [104,101,103,102]
 print(biggerIsGreater("dhck"))  # dhkc
 print(biggerIsGreater("dkhc"))  # hcdk
 print(biggerIsGreater("adbf"))  # badf
+
+"""
+
+myinput = "13 1 11 10 6"
+rep = myinput.replace(" ", ",")
+print(rep)
+
+# spl = myinput.split(" ")
+# def commaAdder(s):
+#     for i in s:
+#         print(i, ",")
+
+
+# print(commaAdder(spl))
+
+# def flatlandSpaceStations(n, c):
+#     localMin = 0
+#     for city in range(n):
+#         for statcity in c:
+#             if statcity == c[0]:
+#                 localMin = abs(city - min(c))
+#             if localMin < abs(city - statcity):
+#                 localMin = abs(city - statcity)
+#
+#     return localMin
+
+def flatlandSpaceStations(n, c):
+    maxdiff = 0
+    for i in range(n):
+        diff = 0
+        for j in c:
+            if j == c[0]:
+                diff = abs(i-j)
+            elif diff > abs(i-j):
+                diff = abs(i-j)
+        if maxdiff < diff:
+            maxdiff = diff
+    return maxdiff
