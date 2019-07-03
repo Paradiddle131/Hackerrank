@@ -65,8 +65,8 @@ print(biggerIsGreater("adbf"))  # badf
 
 """
 
-myinput = "13 1 11 10 6"
-rep = myinput.replace(" ", ",")
+myinput = "68 81 46 54 30 11 19 23 22 12 38 91 48 75 26 86 29 83 62"
+rep = myinput.replace(" ", ", ")
 print(rep)
 
 # spl = myinput.split(" ")
