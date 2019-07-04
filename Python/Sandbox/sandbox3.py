@@ -88,15 +88,53 @@ print(rep)
 #
 #     return localMin
 
-def flatlandSpaceStations(n, c):
-    maxdiff = 0
-    for i in range(n):
-        diff = 0
-        for j in c:
-            if j == c[0]:
-                diff = abs(i-j)
-            elif diff > abs(i-j):
-                diff = abs(i-j)
-        if maxdiff < diff:
-            maxdiff = diff
-    return maxdiff
+# def flatlandSpaceStations(n, c):
+#     maxdiff = 0
+#     for i in range(n):
+#         diff = 0
+#         for j in c:
+#             if j == c[0]:
+#                 diff = abs(i-j)
+#             elif diff > abs(i-j):
+#                 diff = abs(i-j)
+#         if maxdiff < diff:
+#             maxdiff = diff
+#     return maxdiff
+
+# def repeatedString(s, n):
+#     def splitString(word):
+#         return [char for char in word]
+#     count = 0
+#     divisor, remainder = divmod(n, len(s))[0], divmod(n, len(s))[1]
+#     # for char in splitString(s):
+#     #     if char == 'a':
+#     #         count += 1
+#     for i in range(len(splitString(s))*divisor):
+#         if splitString(s)[i % len(s)] == 'a':
+#             count += 1
+#     return count
+#
+#
+# print(repeatedString('aba', 8))
+
+def repeatedString(s, n):
+    count = 0
+    divisor, remainder = divmod(n, len(s))[0], divmod(n, len(s))[1]
+    occIndexes = [key for (key, value) in enumerate(s) if value == 'a']
+    occAmount = len(occIndexes)
+    occAmountMult = occAmount*divisor
+
+    lastOccList = [key for (key, value) in enumerate(s) if value == 'a' and key < remainder]
+    lastOcc = len(lastOccList)
+    # occLast = occIndexes[:s.index(remainder)]
+    print("string       : ", s)
+    print("occIndexes   : ", occIndexes)
+    print('lastOccList  : ', lastOccList)
+    # print('occAll       : ', occAll)
+    print('occAmount    : ', occAmount)
+    print('occAmountMult: ', occAmountMult)
+    # print('occLast', occLast)
+    return occAmountMult + lastOcc
+
+
+print(repeatedString('abaa', 15))  # 9+2=11
