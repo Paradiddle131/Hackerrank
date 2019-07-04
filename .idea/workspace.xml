@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26ab61c1-6de4-487b-94a5-ab99d46be069" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Python/ProblemSolving/Easy/RepeatedString.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/ProblemSolving/Easy/JumpingOnTheClouds.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Sandbox/sandbox3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Sandbox/sandbox3.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,11 +22,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python/ProblemSolving/Easy/RepeatedString.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Python/ProblemSolving/Easy/JumpingOnTheClouds.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -35,7 +43,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python/Sandbox/sandbox3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="563">
+            <state relative-caret-position="2085">
               <caret line="139" selection-start-line="139" selection-end-line="139" />
             </state>
           </provider>
@@ -55,11 +63,15 @@
       <find>l</find>
       <find>reversed</find>
       <find>+</find>
+      <find>.</find>
+      <find>!= 0</find>
     </findStrings>
     <replaceStrings>
       <replace>col</replace>
       <replace>reversedList</replace>
       <replace>-</replace>
+      <replace>,</replace>
+      <replace>== 1</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -88,12 +100,13 @@
         <option value="$PROJECT_DIR$/Python/ProblemSolving/Easy/FlatlandSpaceStations.py" />
         <option value="$PROJECT_DIR$/Python/Sandbox/sandbox3.py" />
         <option value="$PROJECT_DIR$/Python/ProblemSolving/Easy/RepeatedString.py" />
+        <option value="$PROJECT_DIR$/Python/ProblemSolving/Easy/JumpingOnTheClouds.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="792" />
+    <option name="width" value="654" />
     <option name="height" value="991" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -104,6 +117,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,7 +160,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -166,7 +179,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.RepeatedString">
+  <component name="RunManager" selected="Python.JumpingOnTheClouds">
     <configuration name="BiggerIsGreater" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python Workspace" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -201,6 +214,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/ProblemSolving/Easy/FlatlandSpaceStations.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="JumpingOnTheClouds" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python Workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/ProblemSolving/Easy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/ProblemSolving/Easy/JumpingOnTheClouds.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -251,34 +285,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sandbox3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python Workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Hackerrank/Sandbox" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hackerrank/Sandbox/sandbox3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.JumpingOnTheClouds" />
         <item itemvalue="Python.RepeatedString" />
         <item itemvalue="Python.sandbox3 (1)" />
         <item itemvalue="Python.FlatlandSpaceStations" />
         <item itemvalue="Python.BiggerIsGreater" />
-        <item itemvalue="Python.sandbox3" />
       </list>
     </recent_temporary>
   </component>
@@ -296,7 +309,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="792" height="991" extended-state="0" />
+    <frame x="-7" y="0" width="654" height="991" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.34415585" />
@@ -304,7 +317,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25959367" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25846502" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.31264108" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -398,6 +411,10 @@
           <url>file://$PROJECT_DIR$/Python/ProblemSolving/Easy/FlatlandSpaceStations.py</url>
           <line>3</line>
           <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python/ProblemSolving/Easy/JumpingOnTheClouds.py</url>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -511,7 +528,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Python/Sandbox/sandbox3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
+        <state relative-caret-position="2085">
           <caret line="139" selection-start-line="139" selection-end-line="139" />
         </state>
       </provider>
@@ -519,7 +536,14 @@
     <entry file="file://$PROJECT_DIR$/Python/ProblemSolving/Easy/RepeatedString.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/ProblemSolving/Easy/JumpingOnTheClouds.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
