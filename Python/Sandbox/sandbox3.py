@@ -64,6 +64,7 @@ print(biggerIsGreater("dkhc"))  # hcdk
 print(biggerIsGreater("adbf"))  # badf
 
 """
+from typing import OrderedDict
 
 myinput = "68 81 46 54 30 11 19 23 22 12 38 91 48 75 26 86 29 83 62"
 rep = myinput.replace(" ", ", ")
@@ -117,24 +118,57 @@ print(rep)
 #
 # print(repeatedString('aba', 8))
 
-def repeatedString(s, n):
-    count = 0
-    divisor, remainder = divmod(n, len(s))[0], divmod(n, len(s))[1]
-    occIndexes = [key for (key, value) in enumerate(s) if value == 'a']
-    occAmount = len(occIndexes)
-    occAmountMult = occAmount*divisor
+# def repeatedString(s, n):
+#     count = 0
+#     divisor, remainder = divmod(n, len(s))[0], divmod(n, len(s))[1]
+#     occIndexes = [key for (key, value) in enumerate(s) if value == 'a']
+#     occAmount = len(occIndexes)
+#     occAmountMult = occAmount*divisor
+# 
+#     lastOccList = [key for (key, value) in enumerate(s) if value == 'a' and key < remainder]
+#     lastOcc = len(lastOccList)
+#     # occLast = occIndexes[:s.index(remainder)]
+#     print("string       : ", s)
+#     print("occIndexes   : ", occIndexes)
+#     print('lastOccList  : ', lastOccList)
+#     # print('occAll       : ', occAll)
+#     print('occAmount    : ', occAmount)
+#     print('occAmountMult: ', occAmountMult)
+#     # print('occLast', occLast)
+#     return occAmountMult + lastOcc
+# 
+# 
+# print(repeatedString('abaa', 15))  # 9+2=11
+# 
 
-    lastOccList = [key for (key, value) in enumerate(s) if value == 'a' and key < remainder]
-    lastOcc = len(lastOccList)
-    # occLast = occIndexes[:s.index(remainder)]
-    print("string       : ", s)
-    print("occIndexes   : ", occIndexes)
-    print('lastOccList  : ', lastOccList)
-    # print('occAll       : ', occAll)
-    print('occAmount    : ', occAmount)
-    print('occAmountMult: ', occAmountMult)
-    # print('occLast', occLast)
-    return occAmountMult + lastOcc
+# mydict = {x: x * x for x in range(10)}
+# print(mydict)
+
+def minimumDistances(a):
+    dictNums = {}
+    dupCount = 0
+    for number in range(10):
+        for (key, value) in enumerate(a):
+            if value == number:
+                dupCount += 1
+                dictNums['{}'.format(number)] = dupCount
+            # dictNums.update(dupCount)
+        dupCount = 0
+    return dictNums
 
 
-print(repeatedString('abaa', 15))  # 9+2=11
+# print(minimumDistances([7, 1, 3, 4, 1, 7]))  # 3 (4-1)
+
+# dictIndexes = {}
+#     for number in range(10):
+#         for (key, value) in enumerate(a):
+#             if value == number:
+#                 dictIndexes['{}'.format(value)] = key
+#                 dictIndexes.update({'{}'.format(value): dictIndexes[key] + key})
+
+print(minimumDistances([7, 1, 3, 4, 1, 7]))  # 3 (4-1)
+
+dictSample = {'1': 2, '3': 1, '4': 1, '7': 2}
+dictSampleOrdered = OrderedDict("a", "1"), ("c", '3'), ("b", "2")
+print(list(dictSample.values())[3])
+dictSampleOrdered.index('c')
