@@ -166,9 +166,10 @@ def minimumDistances(a):
 #                 dictIndexes['{}'.format(value)] = key
 #                 dictIndexes.update({'{}'.format(value): dictIndexes[key] + key})
 
-print(minimumDistances([7, 1, 3, 4, 1, 7]))  # 3 (4-1)
+# print(minimumDistances([7, 1, 3, 4, 1, 7]))  # 3 (4-1)
+#
+# dictSample = {'1': 2, '3': 1, '4': 1, '7': 2}
+# dictSampleOrdered = OrderedDict("a", "1"), ("c", '3'), ("b", "2")
+# print(list(dictSample.values())[3])
+# dictSampleOrdered.index('c')
 
-dictSample = {'1': 2, '3': 1, '4': 1, '7': 2}
-dictSampleOrdered = OrderedDict("a", "1"), ("c", '3'), ("b", "2")
-print(list(dictSample.values())[3])
-dictSampleOrdered.index('c')
