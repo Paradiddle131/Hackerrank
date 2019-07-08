@@ -144,17 +144,17 @@ print(rep)
 # mydict = {x: x * x for x in range(10)}
 # print(mydict)
 
-def minimumDistances(a):
-    dictNums = {}
-    dupCount = 0
-    for number in range(10):
-        for (key, value) in enumerate(a):
-            if value == number:
-                dupCount += 1
-                dictNums['{}'.format(number)] = dupCount
-            # dictNums.update(dupCount)
-        dupCount = 0
-    return dictNums
+# def minimumDistances(a):
+#     dictNums = {}
+#     dupCount = 0
+#     for number in range(10):
+#         for (key, value) in enumerate(a):
+#             if value == number:
+#                 dupCount += 1
+#                 dictNums['{}'.format(number)] = dupCount
+#             # dictNums.update(dupCount)
+#         dupCount = 0
+#     return dictNums
 
 
 # print(minimumDistances([7, 1, 3, 4, 1, 7]))  # 3 (4-1)
@@ -173,3 +173,71 @@ def minimumDistances(a):
 # print(list(dictSample.values())[3])
 # dictSampleOrdered.index('c')
 
+
+# numbers = {
+#     "zero",
+#     "one",
+#     "two",
+#     "three",
+#     "four",
+#     "five",
+#     "six",
+#     "seven",
+#     "eight",
+#     "nine",
+#     "ten",
+#     "eleven",
+#     "twelve",
+#     "thirteen",
+#     "fourteen",
+#     "fifteen",
+#     "sixteen",
+#     "seventeen",
+#     "eighteen",
+#     "nineteen",
+#     "twenty",
+#     "twenty one",
+#     "twenty two",
+#     "twenty three",
+#     "twenty four",
+#     "twenty five",
+#     "twenty six",
+#     "twenty seven",
+#     "twenty eight",
+#     "twenty nine"
+# }
+
+numbers = {
+'0':'zero',
+'1':'one',
+'2':'two',
+'3':'three',
+'4':'four',
+'5':'five',
+'6':'six',
+'7':'seven',
+'8':'eight',
+'9':'nine',
+'10':'ten',
+'11':'eleven',
+'12':'twelve',
+'13':'thirteen',
+'14':'fourteen',
+'15':'fifteen',
+'16':'sixteen',
+'17':'seventeen',
+'18':'eighteen',
+'19':'nineteen',
+'20':'twenty',
+'21':'twenty one',
+'22':'twenty two',
+'23':'twenty three',
+'24':'twenty four',
+'25':'twenty five',
+'26':'twenty six',
+'27':'twenty seven',
+'28':'twenty eight',
+'29':'twenty nine'
+}
+
+print(numbers)

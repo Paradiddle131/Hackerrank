@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6dc58118-1111-4376-81c7-2ee864d3c292" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../LeetCode/.idea/LeetCode.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeetCode/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeetCode/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeetCode/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeetCode/Java/Sandbox/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeetCode/Java/out/production/LeetCode/JewelsAndStones.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeetCode/Java/out/production/LeetCode/Sandbox.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeetCode/stale_outputs_checked" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProblemSolving/Easy/RepeatedString.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving/Easy/RepeatedString.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/sandbox3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/sandbox3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProblemSolving/Medium/Encryption.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving/Medium/Encryption.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,11 +30,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sandbox/sandbox3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="577">
+            <state relative-caret-position="757">
               <caret line="175" selection-start-line="175" selection-end-line="175" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ProblemSolving/Medium/Encryption.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="745">
+              <caret line="69" column="18" lean-forward="true" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -89,12 +88,12 @@
         <option value="$PROJECT_DIR$/ProblemSolving/ElectronicsShop.py" />
         <option value="$PROJECT_DIR$/ProblemSolving/CatsAndAMouse.py" />
         <option value="$PROJECT_DIR$/ProblemSolving/Medium/NonDivisibleSubset.py" />
-        <option value="$PROJECT_DIR$/ProblemSolving/Medium/Encryption.py" />
         <option value="$PROJECT_DIR$/Sandbox/sandbox.py" />
         <option value="$PROJECT_DIR$/ProblemSolving/Easy/LibraryFine.py" />
         <option value="$PROJECT_DIR$/ProblemSolving/Easy/RepeatedString.py" />
         <option value="$PROJECT_DIR$/ProblemSolving/Easy/JumpingOnTheClouds.py" />
         <option value="$PROJECT_DIR$/Sandbox/sandbox3.py" />
+        <option value="$PROJECT_DIR$/ProblemSolving/Medium/Encryption.py" />
       </list>
     </option>
   </component>
@@ -134,6 +133,12 @@
             <path>
               <item name="Hackerrank" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="ProblemSolving" type="462c0819:PsiDirectoryNode" />
+              <item name="Medium" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hackerrank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="Sandbox" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -164,8 +169,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.sandbox3">
-    <configuration name="CatsAndAMouse" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Encryption">
+    <configuration name="Encryption" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="hackerrank" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -173,11 +178,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProblemSolving" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProblemSolving/Medium" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\Python Projects\Hackerrank\ProblemSolving\Easy\CatsAndAMouse.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProblemSolving/Medium/Encryption.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -293,11 +298,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Encryption" />
         <item itemvalue="Python.sandbox3" />
         <item itemvalue="Python.JumpingOnTheClouds" />
         <item itemvalue="Python.RepeatedString" />
         <item itemvalue="Python.NonDivisibleSubset" />
-        <item itemvalue="Python.CatsAndAMouse" />
       </list>
     </recent_temporary>
   </component>
@@ -323,8 +328,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26105264" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.37635574" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26105264" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37578946" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -362,6 +367,11 @@
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/ProblemSolving/Medium/NonDivisibleSubset.py</url>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ProblemSolving/Medium/Encryption.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -498,13 +508,6 @@
     <entry file="file://$PROJECT_DIR$/ProblemSolving/Medium/BiggerIsGreater.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProblemSolving/Medium/Encryption.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ProblemSolving/Easy/LibraryFine.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
@@ -526,6 +529,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Sandbox/sandbox3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="757">
+          <caret line="175" selection-start-line="175" selection-end-line="175" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ProblemSolving/Easy/JumpingOnTheClouds.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -533,10 +543,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sandbox/sandbox3.py">
+    <entry file="file://$PROJECT_DIR$/ProblemSolving/Medium/Encryption.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="175" selection-start-line="175" selection-end-line="175" />
+        <state relative-caret-position="745">
+          <caret line="69" column="18" lean-forward="true" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
         </state>
       </provider>
     </entry>
